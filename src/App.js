@@ -19,7 +19,7 @@ function App(props) {
               <Route element={<ProtectedRoute/>} >
                   <Route path={`/`} element={<Home/>} />
                   <Route path={`/create`} element={<Create/>} />
-                  <Route path={`/update/:id`} element={<Update/>} />
+                  <Route path={`/update/:bookId`} element={<Update/>} />
               </Route>
               <Route path={`/login`} element={<Login/>} />
               <Route path={`/register`} element={<Register/>} />

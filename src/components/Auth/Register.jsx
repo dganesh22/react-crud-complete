@@ -130,7 +130,7 @@ function Register(props) {
         </div>
 
         <div className="row mt-3">
-            <div className="col-lg-6 offset-md-3 col-md-8 offset-md-2 col-sm-12">
+            <div className="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12">
                 <div className="card">
                     <div className="card-body">
                         <form autoComplete="off" onSubmit={submitHandler}>

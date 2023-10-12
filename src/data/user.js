@@ -28,6 +28,7 @@ const loginUser = async (user) => {
       } else {
             if(extEmail.password === password) {
                   localStorage.setItem('loginStatus', true)
+                  localStorage.setItem('loginUser', JSON.stringify(email))
                   toast.success("Login successful");
                   setTimeout(function(){
                      window.location.href = '/';
